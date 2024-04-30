@@ -1,0 +1,291 @@
+/*Setting backdrop, this time with gradient*/
+html, body{
+    background: linear-gradient(to bottom, white, rgb(139, 139, 139));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    margin: 0; 
+
+
+}
+
+
+.ProductSection{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, red, rgb(131, 0, 0));
+    border: 5px, rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 5px;
+    top: 38%;
+    color: white;
+    font-size: x-large;
+    justify-content: flex-end;
+    padding-right: 500px;
+}
+
+.Logo{
+    display: flex;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 100px;
+    width: 63px;
+    position: absolute;
+    top: 10%;   /*moves asset relative to window size as a percentage, meaning this is scaleable*/
+    left: 10%;
+}
+
+.FreeDelivery{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 34%;
+    left: 25%;
+}
+
+.ShoppingCart{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 24%;
+    left: 80%;
+}
+
+.BackButton{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height:30px;
+    top:55%;
+    background-color: red;
+    color: white;
+    font-size: large;
+    border-radius: 17px;
+    justify-content: center;
+    left: 0%;
+    padding-top: 10px;
+    
+}
+
+.BackButton a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.TabletImage{
+display: flex;
+position:absolute;
+top: 80%;
+left: 18%;
+}
+
+.TabletImage img{
+border: 10px solid rgb(219, 219, 219);
+border-radius: 10px;
+}
+
+.TabletDescription{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    right: 6%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    white-space: nowrap;
+    color: black;
+    font-style: bold;
+        height: 25px;
+        width: 375px;
+        background-color: rgb(185, 185, 185);
+        border-radius: 10px;
+}
+
+.LaptopImage{
+display: flex;
+position:absolute;
+top: 80%;
+right: 18%;
+}
+    
+.LaptopImage img{
+border: 10px solid rgb(219, 219, 219);
+border-radius: 10px;
+
+}
+
+.LaptopDescription{
+    display: flex;
+    position: absolute;
+    top: 90%;
+    right: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    white-space: nowrap;
+    color: black;
+    font-style: bold;
+        height: 25px;
+        width: 330px;
+        background-color: rgb(185, 185, 185);
+        border-radius: 10px;
+}
+
+
+.ACImage{
+    display: flex;
+    position:absolute;
+    top: 140%;
+    right: 18%;
+    justify-content: center;
+    }
+        
+    .ACImage img{
+    border: 10px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    }
+    
+    .ACDescription{
+        display: flex;
+        position: absolute;
+        top: 90%;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        white-space: nowrap;
+        color: black;
+        font-style: bold;
+             height: 25px;
+            width: 355px;
+            background-color: rgb(185, 185, 185);
+            border-radius: 10px;
+    }
+
+
+    .PhoneImage{
+        display: flex;
+        position:absolute;
+        top: 140%;
+        left:18%;
+        justify-content: center;
+        }
+            
+        .PhoneImage img{
+        border: 10px solid rgb(219, 219, 219);
+        border-radius: 10px;
+        
+        }
+        
+        .PhoneDescription{
+            display: flex;
+            position: absolute;
+            top:90%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            white-space: nowrap;
+            color: black;
+            font-style: bold;
+                 height: 25px;
+                width: 355px;
+                background-color: rgb(185, 185, 185);
+                border-radius: 10px;
+        }
+
+        .PCImage{
+            display: flex;
+            position:absolute;
+            top: 200%;
+            left:18%;
+            justify-content: center;
+            }
+                
+            .PCImage img{
+            border: 10px solid rgb(219, 219, 219);
+            border-radius: 10px;
+            
+            }
+            
+            .PCDescription{
+                display: flex;
+                position: absolute;
+                top:90%;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+                white-space: nowrap;
+                color: black;
+                font-style: bold;
+                     height: 25px;
+                    width: 355px;
+                    background-color: rgb(185, 185, 185);
+                    border-radius: 10px;
+            }
+
+            .FanImage{
+                display: flex;
+                position:absolute;
+                top: 200%;
+                right:18%;
+                justify-content: center;
+                }
+                    
+                .FanImage img{
+                border: 10px solid rgb(219, 219, 219);
+                border-radius: 10px;
+                
+                }
+                
+                .FanDescription{
+                    display: flex;
+                    position: absolute;
+                    top:90%;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: large;
+                    white-space: nowrap;
+                    color: black;
+                    font-style: bold;
+                         height: 25px;
+                        width: 355px;
+                        background-color: rgb(185, 185, 185);
+                        border-radius: 10px;
+                }
+                
+.BottomLogo img{
+    width: 100px;
+    height: 180px;
+
+}
+
+.BottomSection2{
+    display: flex;
+    position: absolute;
+    left: 46%;
+    top: 0%;
+}
+
+.BottomBox2{
+    width:100%;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 300%;
+    
+    background-color: black;
+}
+
+
+

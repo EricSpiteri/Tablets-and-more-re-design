@@ -1,0 +1,1056 @@
+html, body{
+    background-image: linear-gradient(to bottom, white, gray); /* sets entire background of page to black, like the home page wireframe*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320%;
+    width: 100%;
+    overflow-x: hidden;/*disables horizontal scrolling*/
+    overflow-y: auto; /*allows vertical scrolling*/
+    margin: 0; /* removes any page margins from the browser*/
+}
+
+.Shop{
+background-image: linear-gradient(to right, rgb(255, 0, 0), rgb(110, 2, 2));
+border: 5px solid white;
+color: #d3d3d3;
+width: 100%;
+height: 9%;
+position: absolute;
+top: 38%;
+font-size :larger;
+text-align: center;
+border-radius: 4px;
+}
+
+
+.Logo{
+    display: flex;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 100px;
+    width: 63px;
+    position: absolute;
+    top: 10%;   /*moves asset relative to window size as a percentage, meaning this is scaleable*/
+    left: 10%;
+}
+
+.FreeDelivery{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 34%;
+    left: 25%;
+}
+
+.ShoppingCart{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 24%;
+    left: 80%;
+}
+
+.BackButton{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height:30px;
+    top:55%;
+    background-color: red;
+    color: white;
+    font-size: large;
+    border-radius: 17px;
+    justify-content: center;
+    left: 0%;
+    padding-top: 10px;
+    
+}
+
+.BackButton:hover{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height:30px;
+    top:55%;
+    background-color: rgb(255, 230, 0);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    border-radius: 17px;
+    justify-content: center;
+    left: 0%;
+    padding-top: 10px;
+    
+}
+
+.BackButton a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+
+.SearchBar{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height:30px;
+    top:55%;
+    right: 5%;
+    width: 200px;
+
+}
+
+.priceSlider{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 65%;
+    left: 5%;
+    background-color: red;
+    border: 5px solid red;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+
+
+
+
+form.SearchBarInput input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border: 5px solid rgb(153, 153, 153);
+    border-radius: 10px;
+  }
+
+
+  form.SearchBarInput::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  /*IpadPro11 Section*/
+  .Ipadpro11Image{
+    display: flex;
+    position:absolute;
+    top: 80%;
+    left: 18%;
+    }
+    
+    .Ipadpro11Image img{
+    border: 10px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    }
+    
+    .IPadpro11Text{
+        position: absolute;
+        top: 90%;
+        right: 6%;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        white-space: nowrap;
+        color: black;
+        font-style: bold;
+            height: 25px;
+            width: 375px;
+            background-color: rgb(185, 185, 185);
+            border-radius: 10px;
+    }
+    .Price1{
+        display: flex;
+        position: absolute;
+        top: 82%;
+        right: 15%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        color: rgb(255, 255, 255);
+        font-style: bold;
+            height: 25px;
+            width: 55px;
+            background-color: rgb(255, 0, 0);
+            border-radius: 10px;
+            justify-content: center;
+            vertical-align: center;
+    }
+
+    /*MacbookAir13 Section*/
+    
+    .MacbookAir13Image{
+    display: flex;
+    position:absolute;
+    top: 80%;
+    right: 18%;
+    }
+        
+    .MacbookAir13Image img{
+    border: 10px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    
+    }
+    
+    .MacbookAir13Text{
+        display: flex;
+        position: absolute;
+        top: 90%;
+        right: 10%;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        white-space: nowrap;
+        color: black;
+        font-style: bold;
+            height: 25px;
+            width: 330px;
+            background-color: rgb(185, 185, 185);
+            border-radius: 10px;
+    }
+
+    .Price2{
+        display: flex;
+        position: absolute;
+        top: 82%;
+        right: 15%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        color: rgb(255, 255, 255);
+        font-style: bold;
+            height: 25px;
+            width: 55px;
+            background-color: rgb(255, 0, 0);
+            border-radius: 10px;
+            justify-content: center;
+            vertical-align: center;
+    }
+    
+    /*MaecoFan Section*/
+    .MaecoFanImage{
+        display: flex;
+        position:absolute;
+        top: 140%;
+        right: 18%;
+        justify-content: center;
+        }
+            
+        .MaecoFanImage img{
+        border: 10px solid rgb(219, 219, 219);
+        border-radius: 10px;
+        }
+        
+        .MaecoFanText{
+            display: flex;
+            position: absolute;
+            top: 90%;
+            text-align: center;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            white-space: nowrap;
+            color: black;
+            font-style: bold;
+                 height: 25px;
+                width: 355px;
+                background-color: rgb(185, 185, 185);
+                border-radius: 10px;
+        }
+
+        .Price3{
+            display: flex;
+            position: absolute;
+            top: 82%;
+            right: 15%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            color: rgb(255, 255, 255);
+            font-style: bold;
+                height: 25px;
+                width: 55px;
+                background-color: rgb(255, 0, 0);
+                border-radius: 10px;
+                justify-content: center;
+                vertical-align: center;
+        }
+    
+        /*XiamiRedmiNote13 Section*/
+
+        .XiamiRedmiNote13Image{
+            display: flex;
+            position:absolute;
+            top: 140%;
+            left:18%;
+            justify-content: center;
+            }
+                
+            .XiamiRedmiNote13Image img{
+            border: 10px solid rgb(219, 219, 219);
+            border-radius: 10px;
+            
+            }
+            
+            .XiomiDescription{
+                display: flex;
+                position: absolute;
+                top:90%;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+                white-space: nowrap;
+                color: black;
+                font-style: bold;
+                     height: 25px;
+                    width: 355px;
+                    background-color: rgb(185, 185, 185);
+                    border-radius: 10px;
+            }
+
+            .Price4{
+                display: flex;
+                position: absolute;
+                top: 82%;
+                right: 15%;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+                color: rgb(255, 255, 255);
+                font-style: bold;
+                    height: 25px;
+                    width: 55px;
+                    background-color: rgb(255, 0, 0);
+                    border-radius: 10px;
+                    justify-content: center;
+                    vertical-align: center;
+            }
+
+           /*LG Section*/
+
+            .LGImage{
+                display: flex;
+                position:absolute;
+                top: 200%;
+                left:18%;
+                justify-content: center;
+                }
+                    
+                .LGImage img{
+                border: 10px solid rgb(219, 219, 219);
+                border-radius: 10px;
+                
+                }
+                
+                .LGDescription{
+                    display: flex;
+                    position: absolute;
+                    top:90%;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: large;
+                    white-space: nowrap;
+                    color: black;
+                    font-style: bold;
+                        height: 25px;
+                        width: 355px;
+                        background-color: rgb(185, 185, 185);
+                        border-radius: 10px;
+                }
+
+                .Price5{
+                    display: flex;
+                    position: absolute;
+                    top: 82%;
+                    right: 15%;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: large;
+                    color: rgb(255, 255, 255);
+                    font-style: bold;
+                        height: 25px;
+                        width: 55px;
+                        background-color: rgb(255, 0, 0);
+                        border-radius: 10px;
+                        justify-content: center;
+                        vertical-align: center;
+                }
+
+                /*Ipad12 Section*/
+    
+                .IPad12Image{
+                    display: flex;
+                    position:absolute;
+                    top: 200%;
+                    right:18%;
+                    justify-content: center;
+                    }
+                        
+                    .IPad12Image img{
+                    border: 10px solid rgb(219, 219, 219);
+                    border-radius: 10px;
+                    
+                    }
+                    
+                    .Ipad12Description{
+                        display: flex;
+                        position: absolute;
+                        top:90%;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: large;
+                        white-space: nowrap;
+                        color: black;
+                        font-style: bold;
+                             height: 25px;
+                            width: 355px;
+                            background-color: rgb(185, 185, 185);
+                            border-radius: 10px;
+                    }
+                    .Price6{
+                        display: flex;
+                        position: absolute;
+                        top: 82%;
+                        right: 15%;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: large;
+                        color: rgb(255, 255, 255);
+                        font-style: bold;
+                            height: 25px;
+                            width: 55px;
+                            background-color: rgb(255, 0, 0);
+                            border-radius: 10px;
+                            justify-content: center;
+                            vertical-align: center;
+                    }
+
+/*WhisperFlex Section*/
+.WhisperFlexImage{
+    display: flex;
+    position:absolute;
+    top: 260%;
+    left: 18%;
+    }
+    
+    .WhisperFlexImage img{
+    border: 10px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    }
+    
+    .WhisperDescription{
+        display: flex;
+        position: absolute;
+        top: 90%;
+        right: 6%;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        white-space: nowrap;
+        color: black;
+        font-style: bold;
+            height: 25px;
+            width: 375px;
+            background-color: rgb(185, 185, 185);
+            border-radius: 10px;
+    }
+
+    .Price7{
+        display: flex;
+        position: absolute;
+        top: 82%;
+        right: 15%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        color: rgb(255, 255, 255);
+        font-style: bold;
+            height: 25px;
+            width: 55px;
+            background-color: rgb(255, 0, 0);
+            border-radius: 10px;
+            justify-content: center;
+            vertical-align: center;
+    }
+    
+    /*AcerAspire Section*/
+    .AcerAspireImage{
+    display: flex;
+    position:absolute;
+    top: 260%;
+    right: 18%;
+    }
+        
+    .AcerAspireImage img{
+    border: 10px solid rgb(219, 219, 219);
+    border-radius: 10px;
+    
+    }
+    
+    .AcerDescription{
+        display: flex;
+        position: absolute;
+        top: 90%;
+        right: 10%;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        white-space: nowrap;
+        color: black;
+        font-style: bold;
+            height: 25px;
+            width: 330px;
+            background-color: rgb(185, 185, 185);
+            border-radius: 10px;
+    }
+
+    .Price8{
+        display: flex;
+        position: absolute;
+        top: 82%;
+        right: 15%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        color: rgb(255, 255, 255);
+        font-style: bold;
+            height: 25px;
+            width: 55px;
+            background-color: rgb(255, 0, 0);
+            border-radius: 10px;
+            justify-content: center;
+            vertical-align: center;
+    }
+
+    /*Beldary Section*/
+    
+    .BeldrayImage{
+        display: flex;
+        position:absolute;
+        top: 320%;
+        right: 18%;
+        justify-content: center;
+        }
+            
+        .BeldrayImage img{
+        border: 10px solid rgb(219, 219, 219);
+        border-radius: 10px;
+        }
+        
+        .BeldrayDescription{
+            display: flex;
+            position: absolute;
+            top: 90%;
+            text-align: center;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            white-space: nowrap;
+            color: black;
+            font-style: bold;
+                 height: 25px;
+                width: 355px;
+                background-color: rgb(185, 185, 185);
+                border-radius: 10px;
+        }
+
+        .Price9{
+            display: flex;
+            position: absolute;
+            top: 82%;
+            right: 15%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            color: rgb(255, 255, 255);
+            font-style: bold;
+                height: 25px;
+                width: 55px;
+                background-color: rgb(255, 0, 0);
+                border-radius: 10px;
+                justify-content: center;
+                vertical-align: center;
+        }
+    
+        /*GalaxyTab Section*/
+        
+        .GalaxyTabImage{
+            display: flex;
+            position:absolute;
+            top: 320%;
+            left:18%;
+            justify-content: center;
+            }
+                
+            .GalaxyTabImage img{
+            border: 10px solid rgb(219, 219, 219);
+            border-radius: 10px;
+            
+            }
+            
+            .GalaxyTabDescription{
+                display: flex;
+                position: absolute;
+                top:90%;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+                white-space: nowrap;
+                color: black;
+                font-style: bold;
+                     height: 25px;
+                    width: 355px;
+                    background-color: rgb(185, 185, 185);
+                    border-radius: 10px;
+            }
+            .Price10{
+                display: flex;
+                position: absolute;
+                top: 82%;
+                right: 15%;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+                color: rgb(255, 255, 255);
+                font-style: bold;
+                    height: 25px;
+                    width: 55px;
+                    background-color: rgb(255, 0, 0);
+                    border-radius: 10px;
+                    justify-content: center;
+                    vertical-align: center;
+            }
+
+            /*VOXAC Section*/
+    
+            .VOXACImage{
+                display: flex;
+                position:absolute;
+                top: 380%;
+                left:18%;
+                justify-content: center;
+                }
+                    
+                .VOXACImage img{
+                border: 10px solid rgb(219, 219, 219);
+                border-radius: 10px;
+                
+                }
+                
+                .VOXDescription{
+                    display: flex;
+                    position: absolute;
+                    top:90%;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: large;
+                    white-space: nowrap;
+                    color: black;
+                    font-style: bold;
+                         height: 25px;
+                        width: 355px;
+                        background-color: rgb(185, 185, 185);
+                        border-radius: 10px;
+                }
+
+                .Price11{
+                    display: flex;
+                    position: absolute;
+                    top: 82%;
+                    right: 15%;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: large;
+                    color: rgb(255, 255, 255);
+                    font-style: bold;
+                        height: 25px;
+                        width: 55px;
+                        background-color: rgb(255, 0, 0);
+                        border-radius: 10px;
+                        justify-content: center;
+                        vertical-align: center;
+                }
+
+                /*LenovoTower Section*/
+    
+                .LenovoTowerImage{
+                    display: flex;
+                    position:absolute;
+                    top: 380%;
+                    right:18%;
+                    justify-content: center;
+                    }
+                        
+                    .LenovoTowerImage img{
+                    border: 10px solid rgb(219, 219, 219);
+                    border-radius: 10px;
+                    
+                    }
+                    
+                    .LenovoTowerDescription{
+                        display: flex;
+                        position: absolute;
+                        top:90%;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: large;
+                        white-space: nowrap;
+                        color: black;
+                        font-style: bold;
+                             height: 25px;
+                            width: 355px;
+                            background-color: rgb(185, 185, 185);
+                            border-radius: 10px;
+                    }
+
+                    .Price12{
+                        display: flex;
+                        position: absolute;
+                        top: 82%;
+                        right: 15%;
+                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        font-size: large;
+                        color: rgb(255, 255, 255);
+                        font-style: bold;
+                            height: 25px;
+                            width: 55px;
+                            background-color: rgb(255, 0, 0);
+                            border-radius: 10px;
+                            justify-content: center;
+                            vertical-align: center;
+                    }
+
+                    /*SamsungS22 Section*/
+                    .SamsungS22Image{
+                        display: flex;
+                        position:absolute;
+                        top: 440%;
+                        left: 18%;
+                        }
+                        
+                        .SamsungS22Image img{
+                        border: 10px solid rgb(219, 219, 219);
+                        border-radius: 10px;
+                        }
+                        
+                        .SamsungS22Description{
+                            display: flex;
+                            position: absolute;
+                            top: 90%;
+                            right: 6%;
+                            justify-content: center;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            font-size: large;
+                            white-space: nowrap;
+                            color: black;
+                            font-style: bold;
+                                height: 25px;
+                                width: 375px;
+                                background-color: rgb(185, 185, 185);
+                                border-radius: 10px;
+                        }
+
+                        .Price13{
+                            display: flex;
+                            position: absolute;
+                            top: 82%;
+                            right: 15%;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            font-size: large;
+                            color: rgb(255, 255, 255);
+                            font-style: bold;
+                                height: 25px;
+                                width: 55px;
+                                background-color: rgb(255, 0, 0);
+                                border-radius: 10px;
+                                justify-content: center;
+                                vertical-align: center;
+                        }
+
+                        /*HPSpectre Section*/
+                        
+                        .HPSpectreImage{
+                        display: flex;
+                        position:absolute;
+                        top: 440%;
+                        right: 18%;
+                        }
+                            
+                        .HPSpectreImage img{
+                        border: 10px solid rgb(219, 219, 219);
+                        border-radius: 10px;
+                        
+                        }
+                        
+                        .HPSpectreDescription{
+                            display: flex;
+                            position: absolute;
+                            top: 90%;
+                            right: 10%;
+                            justify-content: center;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            font-size: large;
+                            white-space: nowrap;
+                            color: black;
+                            font-style: bold;
+                                height: 25px;
+                                width: 330px;
+                                background-color: rgb(185, 185, 185);
+                                border-radius: 10px;
+                        }
+                        .Price14{
+                            display: flex;
+                            position: absolute;
+                            top: 82%;
+                            right: 15%;
+                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                            font-size: large;
+                            color: rgb(255, 255, 255);
+                            font-style: bold;
+                                height: 25px;
+                                width: 55px;
+                                background-color: rgb(255, 0, 0);
+                                border-radius: 10px;
+                                justify-content: center;
+                                vertical-align: center;
+                        }
+                        
+                        /*MacMini Section*/
+
+                        .MacMiniImage{
+                            display: flex;
+                            position:absolute;
+                            top: 500%;
+                            right: 18%;
+                            justify-content: center;
+                            }
+                                
+                            .MacMiniImage img{
+                            border: 10px solid rgb(219, 219, 219);
+                            border-radius: 10px;
+                            }
+                            
+                            .MacMiniDescription{
+                                display: flex;
+                                position: absolute;
+                                top: 90%;
+                                text-align: center;
+                                justify-content: center;
+                                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                font-size: large;
+                                white-space: nowrap;
+                                color: black;
+                                font-style: bold;
+                                     height: 25px;
+                                    width: 355px;
+                                    background-color: rgb(185, 185, 185);
+                                    border-radius: 10px;
+                            }
+
+                            .Price15{
+                                display: flex;
+                                position: absolute;
+                                top: 82%;
+                                right: 15%;
+                                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                font-size: large;
+                                color: rgb(255, 255, 255);
+                                font-style: bold;
+                                    height: 25px;
+                                    width: 55px;
+                                    background-color: rgb(255, 0, 0);
+                                    border-radius: 10px;
+                                    justify-content: center;
+                                    vertical-align: center;
+                            }
+                        
+                            /*AcerChromebook Section*/
+
+                            .AcerChromebookImage{
+                                display: flex;
+                                position:absolute;
+                                top: 500%;
+                                left:18%;
+                                justify-content: center;
+                                }
+                                    
+                                .AcerChromebookImage img{
+                                border: 10px solid rgb(219, 219, 219);
+                                border-radius: 10px;
+                                
+                                }
+                                
+                                .AcerChromeBookDescription{
+                                    display: flex;
+                                    position: absolute;
+                                    top:90%;
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-align: center;
+                                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                    font-size: large;
+                                    white-space: nowrap;
+                                    color: black;
+                                    font-style: bold;
+                                         height: 25px;
+                                        width: 355px;
+                                        background-color: rgb(185, 185, 185);
+                                        border-radius: 10px;
+                                }
+
+                                .Price16{
+                                    display: flex;
+                                    position: absolute;
+                                    top: 82%;
+                                    right: 15%;
+                                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                    font-size: large;
+                                    color: rgb(255, 255, 255);
+                                    font-style: bold;
+                                        height: 25px;
+                                        width: 55px;
+                                        background-color: rgb(255, 0, 0);
+                                        border-radius: 10px;
+                                        justify-content: center;
+                                        vertical-align: center;
+                                }
+
+                                /*AsusRog Section*/
+                        
+                                .AsusRogImage{
+                                    display: flex;
+                                    position:absolute;
+                                    top: 560%;
+                                    left:18%;
+                                    justify-content: center;
+                                    }
+                                        
+                                    .AsusRogImage img{
+                                    border: 10px solid rgb(219, 219, 219);
+                                    border-radius: 10px;
+                                    
+                                    }
+                                    
+                                    .AsusDescription{
+                                        display: flex;
+                                        position: absolute;
+                                        top:90%;
+                                        justify-content: center;
+                                        align-items: center;
+                                        text-align: center;
+                                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                        font-size: large;
+                                        white-space: nowrap;
+                                        color: black;
+                                        font-style: bold;
+                                             height: 25px;
+                                            width: 355px;
+                                            background-color: rgb(185, 185, 185);
+                                            border-radius: 10px;
+                                    }
+
+                                    .Price17{
+                                        display: flex;
+                                        position: absolute;
+                                        top: 82%;
+                                        right: 15%;
+                                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                        font-size: large;
+                                        color: rgb(255, 255, 255);
+                                        font-style: bold;
+                                            height: 25px;
+                                            width: 55px;
+                                            background-color: rgb(255, 0, 0);
+                                            border-radius: 10px;
+                                            justify-content: center;
+                                            vertical-align: center;
+                                    }
+
+                                    /*TROETC Section*/
+                        
+                                    .TROETCIMAGE{
+                                        display: flex;
+                                        position:absolute;
+                                        top: 560%;
+                                        right:18%;
+                                        justify-content: center;
+                                        }
+                                            
+                                        .TROETCIMAGE img{
+                                        border: 10px solid rgb(219, 219, 219);
+                                        border-radius: 10px;
+                                        
+                                        }
+                                        
+                                        .TROTECDescription{
+                                            display: flex;
+                                            position: absolute;
+                                            top:90%;
+                                            justify-content: center;
+                                            align-items: center;
+                                            text-align: center;
+                                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                            font-size: large;
+                                            white-space: nowrap;
+                                            color: black;
+                                            font-style: bold;
+                                                 height: 25px;
+                                                width: 355px;
+                                                background-color: rgb(185, 185, 185);
+                                                border-radius: 10px;
+                                        }
+
+                                        .Price18{
+                                            display: flex;
+                                            position: absolute;
+                                            top: 82%;
+                                            right: 15%;
+                                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                            font-size: large;
+                                            color: rgb(255, 255, 255);
+                                            font-style: bold;
+                                                height: 25px;
+                                                width: 55px;
+                                                background-color: rgb(255, 0, 0);
+                                                border-radius: 10px;
+                                                justify-content: center;
+                                                vertical-align: center;
+                                        }
+
+
+.BottomLogo img{
+    width: 100px;
+    height: 180px;
+
+}
+
+.BottomSection2{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+}
+
+.BottomBox2{
+    width:100%;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 660%;
+    justify-content: center;
+    left: 0%;
+    
+    background-color: black;
+}
+
+
+

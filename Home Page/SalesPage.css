@@ -1,0 +1,264 @@
+html, body{
+    background-image: linear-gradient(to bottom, white, rgb(179, 179, 179)); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    margin: 0; 
+}
+
+.Logo{
+    display: flex;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    height: 100px;
+    width: 63px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.FreeDelivery{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 34%;
+    left: 25%;
+}
+
+.ShoppingCart{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 24%;
+    left: 80%;
+}
+
+.OnSale{
+    display:flex;
+    position:absolute;
+    top:38%;
+    width:100%;
+    height: 80px;
+    position: absolute;
+    background-image: linear-gradient(to right, blue, rgb(0, 162, 255));
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+
+
+
+
+}
+
+.BackButton{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height:30px;
+    top:55%;
+    background-color: red;
+    color: white;
+    font-size: large;
+    border-radius: 17px;
+    justify-content: center;
+    left: 0%;
+    padding-top: 10px;
+    
+}
+
+.BackButton:hover{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height:30px;
+    top:55%;
+    background-color: rgb(255, 230, 0);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    border-radius: 17px;
+    justify-content: center;
+    left: 0%;
+    padding-top: 10px;
+    
+}
+
+.BackButton a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+/*MacbookAir On sale*/
+.MacbookAir13Image{
+    display: flex;
+    position:absolute;
+    top: 80%;
+    right: 18%;
+    }
+        
+    .MacbookAir13Image img{
+    border: 10px solid rgb(207, 207, 207);
+    border-radius: 10px;
+    
+    }
+    
+    .MacbookAir13Text{
+        display: flex;
+        position: absolute;
+        top: 90%;
+        right: 10%;
+        justify-content: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        white-space: nowrap;
+        color: black;
+        font-style: bold;
+            height: 25px;
+            width: 330px;
+            background-color: rgb(207, 207, 207);
+            border-radius: 10px;
+    }
+
+    .Price2{
+        display: flex;
+        position: absolute;
+        top: 77%;
+        right: 15%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        color: rgb(255, 255, 255);
+        font-style: bold;
+            height: 45px;
+            width: 100px;
+            background-color: rgb(0, 81, 255);
+            border-radius: 10px;
+            justify-content: center;
+            vertical-align: center;
+    }
+
+    .XiamiRedmiNote13Image{
+        display: flex;
+        position:absolute;
+        top: 80%;
+        left:18%;
+        justify-content: center;
+        }
+            
+        .XiamiRedmiNote13Image img{
+        border: 10px solid rgb(207, 207, 207);
+        border-radius: 10px;
+        
+        }
+        
+        .XiomiDescription{
+            display: flex;
+            position: absolute;
+            top:90%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            white-space: nowrap;
+            color: black;
+            font-style: bold;
+                 height: 25px;
+                width: 355px;
+                background-color: rgb(185, 185, 185);
+                border-radius: 10px;
+        }
+
+        .Price4{
+            display: flex;
+            position: absolute;
+            top: 77%;
+            right: 15%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: large;
+            color: rgb(255, 255, 255);
+            font-style: bold;
+            height: 45px;
+            width: 100px;
+            background-color: rgb(0, 81, 255);
+            border-radius: 10px;
+            justify-content: center;
+            vertical-align: center;
+        }
+
+        .WhisperFlexImage{
+            display: flex;
+            position:absolute;
+            top: 140%;
+            left: 18%;
+            }
+            
+            .WhisperFlexImage img{
+            border: 10px solid rgb(207, 207, 207);
+            border-radius: 10px;
+            }
+            
+            .WhisperDescription{
+                display: flex;
+                position: absolute;
+                top: 90%;
+                right: 6%;
+                justify-content: center;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+                white-space: nowrap;
+                color: black;
+                font-style: bold;
+                    height: 25px;
+                    width: 375px;
+                    background-color: rgb(185, 185, 185);
+                    border-radius: 10px;
+            }
+        
+            .Price7{
+                display: flex;
+                position: absolute;
+                top: 77%;
+                right: 15%;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: large;
+                color: rgb(255, 255, 255);
+                font-style: bold;
+                height: 45px;
+                width: 100px;
+                background-color: rgb(0, 81, 255);
+                border-radius: 10px;
+                justify-content: center;
+                vertical-align: center;
+            }
+
+            .BottomLogo img{
+                width: 100px;
+                height: 180px;
+            
+            }
+            
+            .BottomSection2{
+                display: flex;
+                position: absolute;
+                left: 48%;
+                top: 0%;
+            }
+            
+            .BottomBox2{
+                width:100%;
+                height: 200px;
+                display: flex;
+                position: absolute;
+                top: 300%;
+                justify-content: center;
+                left: 0%;
+                
+                background-color: black;
+            }
+
+
