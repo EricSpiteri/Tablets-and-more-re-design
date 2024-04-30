@@ -31,7 +31,7 @@ html, body{
 .BackgroundImage1{
     display: flex;
     position: absolute;
-    background-image: url(backgroundImage2.jpg);
+    background-image: url(./Assets/backgroundImage2.jpg);
     filter: blur(10px);
     height: 100%;
     width: 100%;

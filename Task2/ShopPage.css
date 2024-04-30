@@ -157,6 +157,7 @@ form.SearchBarInput input[type=text] {
         top: 90%;
         right: 6%;
         justify-content: center;
+        text-align: center;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: large;
         white-space: nowrap;
